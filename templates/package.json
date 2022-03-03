@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@stackspot/cdk-env-eventbridge": "^0.1.0"
+  }
+}

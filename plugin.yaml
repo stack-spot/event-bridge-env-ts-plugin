@@ -1,0 +1,26 @@
+name: event-bridge-env-ts-plugin
+description: Plugin to create a event bridge.
+types:
+  - env
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+  - label: Bus name
+    type: text
+    name: bus_name
+  - label: Rule name
+    type: text
+    name: rule_name
+  - label: Rule description
+    type: text
+    name: rule_description
+  - label: Event pattern
+    type: text
+    name: event_pattern
+  - label: Rule enabled
+    type: bool
+    name: rule_enabled
+computedInputs:
+  app_class_name: "{{ inputs.project_name|replace('_', '-')|replace(' ', '-')|title|replace('-', '') }}"
+  project_name: "{{ inputs.project_name|replace('_', '-')|replace(' ', '-')|lower }}"
