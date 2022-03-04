@@ -3,7 +3,7 @@
 [![version][badge-version]][releases]
 [![license][badge-license]][license]
 
-Plugin to create a event bridge.
+Plugin to create an event bridge.
 
 ## Development
 

@@ -1,5 +1,5 @@
 name: event-bridge-env-ts-plugin
-description: Plugin to create a event bridge.
+description: Plugin to create an event bridge.
 types:
   - env
 inputs:
